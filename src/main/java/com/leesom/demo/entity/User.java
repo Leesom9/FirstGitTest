@@ -1,8 +1,11 @@
 package com.leesom.demo.entity;
 
+import org.springframework.stereotype.Repository;
+
 /**
  * @author :leesom
  */
+@Repository
 public class User {
     private Integer id;
     private String userName;

@@ -7,4 +7,8 @@ import org.springframework.stereotype.Repository;
 public interface UserMapper {
 
     User SelectUser(int id);
+
+    User login(String userName,String passWord);
+
+    int register(User user);
 }
